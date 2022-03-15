@@ -1,0 +1,460 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 30320,
+      "max": [
+        0.9195888042449951,
+        2.487328052520752,
+        1.1270701885223389
+      ],
+      "min": [
+        -0.9195888042449951,
+        0.02016693353652954,
+        -0.9461625218391418
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 363840,
+      "componentType": 5126,
+      "count": 30320,
+      "max": [
+        0.9999962449073792,
+        0.9999809861183167,
+        0.9999873042106628
+      ],
+      "min": [
+        -0.9999741911888123,
+        -0.9999887347221375,
+        -0.9997773170471191
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 30320,
+      "max": [
+        1.0,
+        0.9999919533729553,
+        0.9999682903289795,
+        1.0
+      ],
+      "min": [
+        -0.9999997019767761,
+        -0.9999919533729553,
+        -0.9998433589935303,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 30320,
+      "max": [
+        0.872672438621521,
+        0.9963775873184204
+      ],
+      "min": [
+        0.015592865645885468,
+        0.003175020217895508
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 242560,
+      "componentType": 5126,
+      "count": 30320,
+      "max": [
+        0.872672438621521,
+        0.9963775873184204
+      ],
+      "min": [
+        0.015592865645885468,
+        0.003175020217895508
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 175092,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 727680,
+      "componentType": 5126,
+      "count": 564,
+      "max": [
+        0.45309677720069885,
+        1.515164852142334,
+        0.7344611287117004
+      ],
+      "min": [
+        -0.4530969262123108,
+        1.1796116828918457,
+        0.3989081382751465
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 734448,
+      "componentType": 5126,
+      "count": 564,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 485120,
+      "componentType": 5126,
+      "count": 564,
+      "max": [
+        0.921915590763092,
+        0.9763439297676086
+      ],
+      "min": [
+        0.037643253803253174,
+        0.015100955963134766
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 489632,
+      "componentType": 5126,
+      "count": 564,
+      "max": [
+        0.921915590763092,
+        0.9763439297676086
+      ],
+      "min": [
+        0.037643253803253174,
+        0.015100955963134766
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 700368,
+      "componentType": 5125,
+      "count": 3120,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cyranek (https://sketchfab.com/cyranek)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/when-the-imposter-is-sus-230ec756288e444c8e07f486ef9e8786",
+      "title": "When the Imposter is Sus!"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 712848,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 494144,
+      "byteOffset": 712848,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 741216,
+      "byteOffset": 1206992,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 485120,
+      "byteOffset": 1948208,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2433328,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Sus_Main_BaseColor_1Material_diffuse.png"
+    },
+    {
+      "uri": "textures/Sus_Main_BaseColor_1Material_normal.png"
+    },
+    {
+      "uri": "textures/Sus_Eyes_BaseColor_1Material_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.22059628258212793,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Sus_Main_BaseColor_1Material",
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 2
+          },
+          "glossinessFactor": 0.8645261417045158,
+          "specularFactor": [
+            0.19627558992880118,
+            0.19627558992880118,
+            0.19627558992880118
+          ]
+        }
+      },
+      "name": "Sus_Eyes_BaseColor_1Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Head_Sus_Main_BaseColor_1Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Eyes_Sus_Eyes_BaseColor_1Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "a27fde4721da492897c617c42f62bd9f.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -0.14133392621599894,
+        0.013288696638538086,
+        -0.9898727856861306,
+        0.0,
+        0.0018783095223710152,
+        0.9999117013725006,
+        0.01315528075296243,
+        0.0,
+        0.9899601978128764,
+        -2.419939248987646e-16,
+        -0.141346406909731,
+        0.0,
+        0.5777889490127563,
+        1.174720287322998,
+        4.2291259765625,
+        1.0
+      ],
+      "name": "CINEMA_4D_Editor"
+    },
+    {
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        6,
+        8
+      ],
+      "name": "Sus"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Head"
+    },
+    {
+      "mesh": 0,
+      "name": "Head_Sus_Main_BaseColor_1Material_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "Eyes"
+    },
+    {
+      "mesh": 1,
+      "name": "Eyes_Sus_Eyes_BaseColor_1Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9728,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
