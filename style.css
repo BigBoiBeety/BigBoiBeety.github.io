@@ -17,7 +17,7 @@
 
 .slideshowBorder {
     width: 10%;
-    height: 400px;
+    height: 60%;
     background-color: #818181;
     float: left;
     box-shadow: inset 0px 5px 10px black;
@@ -25,7 +25,7 @@
 
 .slideshowPicture {
     width: 80%; 
-    height: 400px;
+    height: 60%;
     float: left;
 }
 
@@ -33,13 +33,4 @@
     border-top: 2px solid black;
     background-color: #818181;
     padding: 10px
-}
-
-.arrowButtons {
-    border: 2px solid black;
-    background-color: white;
-    margin-top: 40%;
-    margin-bottom: 40%;
-    margin-left: 40%;
-    margin-right: 40%
 }
