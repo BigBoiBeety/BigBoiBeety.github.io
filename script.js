@@ -24,3 +24,13 @@ function indexCorrection(){
     
     document.getElementById("slideshowMe").src = "images/" + images[imageIndex];
 }
+
+function preloader() {
+    imageUno = new Image();
+    imageDos = new Image();
+    imageTres = new Image();
+    
+    imageUno.src = "me.PNG";
+    imageDos.src= "cool.PNG";
+    imageTres.src = "unhappy.PNG";
+}

@@ -1,6 +1,5 @@
 * {
     font-family: sans-serif;
-    margin: 0;
     padding: 0;
 }
 
@@ -11,8 +10,8 @@
     border-bottom: 2px solid black;
 }
 
-.body {
-    
+body {
+    margin: 0;
 }
 
 .slideshowBorder {
@@ -32,5 +31,20 @@
 .textContent {
     border-top: 2px solid black;
     background-color: #818181;
-    padding: 10px
+    padding-top: 30px;
+    height: 1000px;
+    display: block;
+}
+
+.linkBox {
+    border-radius: 5px;
+    border: 10px solid black;
+    background-color: #4b4b4b;
+    color: white;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
