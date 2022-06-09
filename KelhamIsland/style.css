@@ -29,7 +29,7 @@ body {
 
 .nav-cell {
     border-right: 10px black solid;
-    width: min-content;
+    width: 25%;
     min-height: 50px;
     padding: 5px;
 }
@@ -53,7 +53,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100vw;
-    height: 100vh;;
+    height: 100vh;
 }
 
 body > .body-container {
