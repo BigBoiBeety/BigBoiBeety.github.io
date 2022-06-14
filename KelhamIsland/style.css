@@ -4,7 +4,6 @@ html {
 
 body {
     margin: 0;
-
 }
 
 .inline {
@@ -67,10 +66,12 @@ body {
     border-top: 5px black solid;
     border-bottom: 5px black solid;
     word-wrap: break-word;
+    margin-bottom: 100px;
 }
 
 footer {
     background-color: rgb(80, 80, 80);
+    padding-bottom: 200px;
 }
 
 footer > * {
