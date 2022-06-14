@@ -4,6 +4,7 @@ html {
 }
 body {
     margin: 0;
+    min-height: 100vh;
 }
 
 .inline {
@@ -125,6 +126,23 @@ footer > * {
 .fa-youtube {
     background: #ff0000;
     color: white;
+}
+
+.list {
+    margin: 10% 30px;
+    background-color: white;
+}
+
+.list-item {
+    margin:0;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: min(5vw, 50px);
 }
 
 /* <a href="http://www.simt.co.uk/kelham-island-museum" class="fa fa-globe" title="Kelham Island's Official Website"></a>
