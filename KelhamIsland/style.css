@@ -29,14 +29,14 @@ body {
 
 .nav-cell {
     border-right: 5px black solid;
-    width: 15%;
+    width: fit-content;
     min-height: 50px;
     padding: 5px;
 }
 
 .nav-cell-socialmedia {
     border-right: 5px black solid;
-    width: 40%;
+    width: fit-content;
     min-height: 50px;
     padding: 5px;
     text-align: right;
@@ -54,6 +54,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: x-large;
+    font-size: min(5vw, 3em);
 }
 
 .body-background > img {
@@ -104,3 +105,8 @@ footer > * {
     background: #ff0000;
     color: white;
 }
+
+/* <a href="http://www.simt.co.uk/kelham-island-museum" class="fa fa-globe" title="Kelham Island's Official Website"></a>
+                <a href="https://www.facebook.com/kelhamislandmuseum" class="fa fa-facebook" title="Facebook"></a>
+                <a href="https://twitter.com/KelhamIsland" class="fa fa-twitter" title="Twitter"></a>
+                <a href="https://www.youtube.com/user/KelhamIslandMuseum" class="fa fa-youtube" title="Youtube"></a> */
