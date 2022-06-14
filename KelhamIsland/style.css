@@ -16,25 +16,25 @@ body {
     background-image: url("images/kelhamlogo.PNG");
     background-repeat: no-repeat;
     background-size: contain;
-    border-bottom: 5px black solid;
+    border-bottom: 5px #313131 solid;
 }
 
 .nav-bar {
     display: flex;
-    border-bottom: 5px black solid;
+    border-bottom: 5px #313131 solid;
     width: 100%;
     min-height: 50px;
 }
 
 .nav-cell {
-    border-right: 5px black solid;
+    border-right: 5px #313131 solid;
     width: fit-content;
     min-height: 50px;
     padding: 5px;
 }
 
 .nav-cell-socialmedia {
-    border-right: 5px black solid;
+    border-right: 5px #313131 solid;
     width: fit-content;
     min-height: 50px;
     padding: 5px;
@@ -42,7 +42,7 @@ body {
 }
 
 .nav-cell:hover {
-    background-color: black;
+    background-color: #005276;
 }
 .nav-cell:hover > a{
     color: white;
@@ -55,9 +55,28 @@ body {
     font-size: x-large;
     font-size: min(5vw, 3em);
 }
+.body-background {
+    position: relative;
+}
 
-.body-background > img {
+.body-background img {
     width: 100%;
+    height: auto;
+}
+
+.body-background .button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(85, 85, 85, 0.493);
+    color: white;
+    font-size: 2rem;
+    padding: 12px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .body-container {
