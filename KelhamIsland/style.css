@@ -1,7 +1,7 @@
-html {
-    font-family: "Lucida Sans";
-}
 
+html {
+    font-family: 'Lucida Sans';
+}
 body {
     margin: 0;
 }
@@ -70,6 +70,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     background-color: rgba(85, 85, 85, 0.493);
     color: white;
     font-size: 2rem;
