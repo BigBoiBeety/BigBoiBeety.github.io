@@ -5,7 +5,12 @@
         <link rel="stylesheet" href="../style.css">
         <script src="../main.js"></script>
 
-        
+        <script defer>
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var page = url.searchParams.get("page");
+            document.getElementById("amogus").setAttribute("src", page)
+        </script>
     </head>
     <body>
         <div class="header">
@@ -28,14 +33,7 @@
                 <a class="nav-cell-link" href="../links.html" title="Social Media Page">Socials</a>
             </div>
         </div>
-        <iframe id="amogus"></iframe>
+        <iframe id="amogus" style="width: 100%; height: 100%;";></iframe>
     </body>
-<footer>
-    <script defer>
-        var url_string = window.location.href;
-        var url = new URL(url_string);
-        var page = url.searchParams.get("page");
-        document.getElementById("amogus").setAttribute("src", page)
-    </script>
-</footer>
+
 </html>
