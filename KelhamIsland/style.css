@@ -92,7 +92,7 @@ body {
 
 footer {
     background-color: rgb(80, 80, 80);
-    padding-bottom: 200px;
+    padding: 100px;
 }
 
 footer > * {
@@ -106,6 +106,7 @@ footer > * {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    margin: 10px;
 }
 
 .fa-facebook {
@@ -145,7 +146,3 @@ footer > * {
     font-size: min(5vw, 50px);
 }
 
-/* <a href="http://www.simt.co.uk/kelham-island-museum" class="fa fa-globe" title="Kelham Island's Official Website"></a>
-                <a href="https://www.facebook.com/kelhamislandmuseum" class="fa fa-facebook" title="Facebook"></a>
-                <a href="https://twitter.com/KelhamIsland" class="fa fa-twitter" title="Twitter"></a>
-                <a href="https://www.youtube.com/user/KelhamIslandMuseum" class="fa fa-youtube" title="Youtube"></a> */
