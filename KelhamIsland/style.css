@@ -87,7 +87,6 @@ body {
     border-top: 5px black solid;
     border-bottom: 5px black solid;
     word-wrap: break-word;
-    margin-bottom: 100px;
     font-size: x-large;
 }
 
@@ -147,3 +146,10 @@ footer > * {
     font-size: min(5vw, 50px);
 }
 
+#map {
+    height: 100%;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  
